@@ -2,11 +2,52 @@
   display: none;
 }
 
+.h1 {
+	text-shadow: 0 5px 5px rgb(11, 101, 117);
+	color: rgba(17, 4, 49, 0.897);
+}
+
 h1 small {
   display: block;
   margin: 5px;
 }
 
-.row-md-12 {
-  background-color: green;
+p, ul {
+
+	color: rgb(20, 88, 97);
+  text-align: justify;
 }
+
+p:hover {
+  text-shadow: 0 5px 5px rgb(11, 101, 117);
+	color: rgba(17, 4, 49, 0.897);
+}
+
+ul:hover {
+  text-shadow: 0 5px 5px rgb(11, 101, 117);
+	color: rgba(17, 4, 49, 0.897);
+}
+
+form {
+  padding: 10px 10px 10px 50px;
+}
+
+select {
+  display: block;
+}
+
+label {
+  color:rgba(6, 49, 47, 0.897);
+  font-weight: bold;
+}
+.panel {
+	background: url("../img/background6.jpg");
+	opacity: 0.9;
+	padding: 7px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.50);
+}
+
+.panel:hover {
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+

@@ -10,48 +10,74 @@
 </head>
 <body>
   <div class="container">
-    <h1>Which Programming Language is right for <span>you</span></small>Take our quiz and find out</small></h1>
-    <form class="form">
-      <div class="form-group">
-        <label for="favoriteAnimal">What is your favorite animal?</label>
-          <select id="favoriteAnimal">
-          <option value="snake">Snake</option>
-          <option value="cat">Cat</option>
-          </select>
-      </div> <!--form-group div-->
-      <div class="form-group">
-        <label for="favoriteColor">What is your favorite color?</label>
-          <select id="favoriteColor">
-          <option value="red">Red</option>
-          <option value="green">Green</option>
-          </select>
-      </div> <!--form-group div-->
-      <div class="form-group">
-        <label for="vacation">What is your ideal vacation destination?</label>
-          <select id="vacation">
-          <option value="mountains">A cabin somewhere in the mountains</option>
-          <option value="beach">Any Greek island</option>
-          </select>
-      </div> <!--form-group div-->
-      <div class="form-group">
-        <label for="languageType">What type of a programming language do you prefer?</label>
-          <select id="languageType">
-          <option value="loose">I prefer loosely typed languages</option>
-          <option value="strong">I prefer strongly typed languages</option>
-          </select>
-      </div> <!--form-group div-->
-      <div class="form-group">
-        <label for="personType">Are you a morning person or a night owl?</label>
-          <select id="personType">
-          <option value="morning">I am a morning person</option>
-          <option value="owl">I am a night owl</option>
-          </select>
-      </div> <!--form-group div--> 
-      <button class="btn btn-info" type="submit">Submit</button>
-      <div id="output">
+    <div class="jumbotron">
+      <h1 class="h1">Programming Language Suggester<small>Take our quiz and find your match!</small></h1>
+    </div> <!--jumbotron-->
+    <div class="row">
+      <div class="col-md-3">
+        <div class="panel panel-default empty">
+          <p>We've done extensive scientific research to find out the 3 most popular programming languages, and we want to share our results with you:</p>
+          <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Ruby</li>
+            <li>C#</li>
+          </ul>
+          <p>If you want to learn one of these languages but you are not sure which one will is the right language for you, complete our quiz! We'll decide for you!</p>
+        </div> <!--panel close-->
+      </div> <!--col 3 div-->
+      <div class="col-md-6">
+        <div class="panel panel-default survey">
+          <form class="form">
+            <div class="form-group">
+              <label for="favoriteAnimal">What is your favorite animal?</label>
+                <select id="favoriteAnimal">
+                <option value="snake">Snake</option>
+                <option value="cat">Cat</option>
+                <option value="dog">Dog</option>
+                </select>
+            </div> <!--form-group div-->
+            <div class="form-group">
+              <label for="favoriteColor">What is your favorite color?</label>
+                <select id="favoriteColor">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                </select>
+            </div> <!--form-group div-->
+            <div class="form-group">
+              <label for="vacation">What is your ideal vacation destination?</label>
+                <select id="vacation">
+                <option value="mountains">A cabin somewhere in the mountains</option>
+                <option value="beach">Any Greek island</option>
+                <option value="staycation">My home</option>
+                </select>
+            </div> <!--form-group div-->
+            <div class="form-group">
+              <label for="languageType">What type of a programming language do you prefer?</label>
+                <select id="languageType">
+                <option value="loose">I prefer loosely typed languages</option>
+                <option value="strong">I prefer strongly typed languages</option>
+                </select>
+            </div> <!--form-group div-->
+            <div class="form-group">
+              <label for="personType">Are you a morning person or a night owl?</label>
+                <select id="personType">
+                <option value="morning">I am a morning person</option>
+                <option value="owl">I am a night owl</option>
+                </select>
+            </div> <!--form-group div--> 
+            <button class="btn btn-info" type="submit">Submit</button>
+            <div id="output">
 
-      </div> <!--output div-->
-    </form>
+            </div> <!--output div-->
+          </form>
+        </div>
+      </div> <!--col form div-->
+      <div class="col-md-3">
+
+      </div> <!--col 3 div-->
+    </div> <!--row div-->
 
     <!-- <div id="result">
       <p>You should learn </p>

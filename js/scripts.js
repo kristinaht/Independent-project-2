@@ -8,13 +8,15 @@ $(document).ready(function(){
     var personType = $("select#personType").val();
 
    
-    if (favoriteAnimal === "snake" && favoriteColor === "green" & languageType !== "loose") {
-      $("#output").text("You should learn Python!");
-    } else if (vacation === "beach" && favoriteColor === "red" || personType === "owl") {
-      $("#output").text("You should learn JavaScript!");
+    if (favoriteAnimal === "snake" && vacation === "mountains" && personType === "morning") {
+      $("#output").text("You should learn Python!").toggle();
+    } else if (vacation === "beach" && favoriteColor === "green" && favoriteAnimal === "cat" && languageType !== "strong") {
+      $("#output").text("You should learn JavaScript!").toggle();
+    } else if((favoriteAnimal === "dog" && favoriteColor === "blue" && languageType === "strong") ||(favoriteAnimal === "dog" && favoriteColor === "red" && languageType === "strong") ) {
+      $("#output").text("You should learn C#!").toggle();
     }
     else {
-      alert("You should learn all");
+      $("#output").text("You should learn Ruby!").toggle();
     }
     event.preventDefault();
   });
