@@ -13,9 +13,13 @@ h1 small {
 }
 
 p, ul {
-
 	color: rgb(20, 88, 97);
   text-align: justify;
+  padding: 10px;
+}
+
+li {
+  margin: 5px 5px 5px 20px;
 }
 
 p:hover {
@@ -25,7 +29,8 @@ p:hover {
 
 ul:hover {
   text-shadow: 0 5px 5px rgb(11, 101, 117);
-	color: rgba(17, 4, 49, 0.897);
+  color: rgba(17, 4, 49, 0.897);
+  font-weight: bold;
 }
 
 form {
@@ -40,6 +45,7 @@ label {
   color:rgba(6, 49, 47, 0.897);
   font-weight: bold;
 }
+
 .panel {
 	background: url("../img/background6.jpg");
 	opacity: 0.9;
@@ -51,3 +57,6 @@ label {
 	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
+img {
+  opacity: 0.5;
+}
