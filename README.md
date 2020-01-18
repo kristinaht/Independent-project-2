@@ -1,6 +1,6 @@
 # _Programming Language Suggester_
 
-#### _{Brief description of application}, 1-17-2020_
+#### _Second Independent Project, 1-17-2020_
 
 #### By _**Kristina Hengster Tintor**_
 
@@ -12,11 +12,11 @@ _This webpage presents an online form that users can complete to find out which 
 * _Ruby_
 * _Python_
 
-## Se_tup/Installation Requirements
-_Programming Language Suggester webpage can be opened in any browser. 
-_Further editing is possible if you clone it from GitHub. You can do that in two ways: 
+## Setup/Installation Requirements
+_Programming Language Suggester webpage can be opened in any browser. _
+_Further editing is possible if you clone it from GitHub. You can do that in two ways:_
 
-_Download directly from GitHub
+_Download directly from GitHub_
 * _From GitHub, click Clone or Download button._
 * _Next, click the download zip button._
 * _Save folder on your desktop_
