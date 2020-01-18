@@ -6,19 +6,26 @@
 
 ## Description
 
-_This webpage presents an online form that users can complete to find out which programming language they should learn. Options provided are:_
+_This webpage presents an online form that users can complete to find out which programming language they should learn. Options provided are. Online form helps users decide between:_
 * _JavaScript_
 * _C#_
 * _Ruby_
 * _Python_
 
-## Setup/Installation Requirements
+## Se_tup/Installation Requirements
+_Programming Language Suggester webpage can be opened in any browser. 
+_Further editing is possible if you clone it from GitHub. You can do that in two ways: 
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+_Download directly from GitHub
+* _From GitHub, click Clone or Download button._
+* _Next, click the download zip button._
+* _Save folder on your desktop_
+
+_If using Terminal to clone_
+* _Open Terminal_
+_From your Home Directory, enter command cd desktop
+_Once you are on desktop, enter the following: git clone https://github.com/kristinaht/Independent-project-2.git_
+_Clone project will be created on your desktop_
 
 
 ## Known Bugs
