@@ -9,14 +9,14 @@ $(document).ready(function(){
 
    
     if (favoriteAnimal === "snake" && vacation === "mountains" && personType === "morning") {
-      $("#output").text("You should learn Python!").toggle();
+      $("#output").text("You should learn Python!").show();
     } else if (vacation === "beach" && favoriteColor === "green" && favoriteAnimal === "cat" && languageType !== "strong") {
-      $("#output").text("You should learn JavaScript!").toggle();
+      $("#output").text("You should learn JavaScript!").show();
     } else if((favoriteAnimal === "dog" && favoriteColor === "blue" && languageType === "strong") ||(favoriteAnimal === "dog" && favoriteColor === "red" && languageType === "strong") ) {
-      $("#output").text("You should learn C#!").toggle();
+      $("#output").text("You should learn C#!").show();
     }
     else {
-      $("#output").text("You should learn Ruby!").toggle();
+      $("#output").text("You should learn Ruby!").show();
     }
     event.preventDefault();
   });
